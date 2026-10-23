@@ -9,3 +9,8 @@ console.log(number)
 
 let isHard:boolean=false;
 console.log(isHard)
+
+
+// let yourName : string =12; number not assignable to string
+let numbere :number = 9;
+console.log(numbere)

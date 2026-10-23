@@ -3,7 +3,7 @@
 Typescript is javascript with superpowers : typescript is more powerful version of javascript. it lets you do everything javascript does, but it adds some extra features to make your life easier when writing large programs
 
 > npm install -g typescript
-> npm i -g ts-node
+> npm install -g tsx
 
 # Annotations
 

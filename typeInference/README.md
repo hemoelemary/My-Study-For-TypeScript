@@ -1,0 +1,2 @@
+# Type Inference
+Type inference is a feature in TypeScript that allows compiler to automatically determine type of variable based on its value, if you declare a variable without explictly specify its type, typescript will try to infer typ base on value you assign to it
