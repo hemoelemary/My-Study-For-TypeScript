@@ -8,3 +8,16 @@ Typescript is javascript with superpowers : typescript is more powerful version 
 # Annotations
 
 Annotation are used to specify the data type of a variable parameter , function return value, and other types of value, Annotation help developers catch errors early in development , by allowing them to specify what types of values can be assigned to a given var or passed as an argument to function
+
+let myVar:type=value
+so you should be specific in type string,number
+
+# Type Inference
+Type inference is a feature in TypeScript that allows compiler to automatically determine type of variable based on its value, if you declare a variable without explictly specify its type, typescript will try to infer typ base on value you assign to it
+
+# Any Type
+
+TypeScript has a special any type that can be used to represent any type. when a variable is annotated with any type, TypeScript will allow it to have any value and disable all type checking for that var
+
+>Warning
+while any type can be useful in certain situations, it should be sparingly , overuse of any can lead to untyped code and make it to catch type-related bugs during development.
