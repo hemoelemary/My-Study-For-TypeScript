@@ -21,3 +21,7 @@ TypeScript has a special any type that can be used to represent any type. when a
 
 >Warning
 while any type can be useful in certain situations, it should be sparingly , overuse of any can lead to untyped code and make it to catch type-related bugs during development.
+
+# void in TypeScript
+
+void is a type that represents the absence of any value it is often used as the return type for function that do not return a value
