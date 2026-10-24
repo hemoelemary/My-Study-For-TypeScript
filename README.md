@@ -25,3 +25,21 @@ while any type can be useful in certain situations, it should be sparingly , ove
 # void in TypeScript
 
 void is a type that represents the absence of any value it is often used as the return type for function that do not return a value
+
+# never
+The never keyword is used to indicate that a function will not return anything or that a variable can never have a value. the never type is useful for indicating that code paths should never be reached
+
+never :
+<ul>
+<li>function always throw error</li>
+<li>function has infinite loop</li>
+<li>variable never have a value</li>
+</ul>
+
+# Array Types
+
+Arrays are a type of object store multiple values of the same data type, Arrays in TypeScript are typed, which means you can specify the type of values that array can hold
+
+> 2 types of array
+> for ex :number[] string[] number[][] number[][][]
+> generic Array<type>
