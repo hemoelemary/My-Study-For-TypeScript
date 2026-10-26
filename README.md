@@ -67,3 +67,12 @@ optional phone phone?:
 readonly loc : string
 
 > cant reassign person.location = 'something'
+
+# intersection types
+
+intersection type is a way to combine multiple types into a single type that includes all properties and method of each consituent type> An intersection type is denoted by & symbol
+
+# unions
+unions are used to declare a type that can have one of several possible types. unions are useful when we want to allow a variable or parameter to accept multiple types.
+
+syntax union uses symbol => |
