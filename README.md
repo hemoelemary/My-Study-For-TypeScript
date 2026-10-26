@@ -76,3 +76,8 @@ intersection type is a way to combine multiple types into a single type that inc
 unions are used to declare a type that can have one of several possible types. unions are useful when we want to allow a variable or parameter to accept multiple types.
 
 syntax union uses symbol => |
+
+# literal type
+literal type allows you to specify a value that can only be <b>one specific literal value</b>. this means that it can only have one specific value
+
+> ex : let color : 'red'|'blue'|'green'
