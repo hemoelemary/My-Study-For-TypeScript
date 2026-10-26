@@ -81,3 +81,10 @@ syntax union uses symbol => |
 literal type allows you to specify a value that can only be <b>one specific literal value</b>. this means that it can only have one specific value
 
 > ex : let color : 'red'|'blue'|'green'
+
+# tuples
+
+tuple is a type that represents an array with fixed number of elements where each element has a different type. The order of types correspond to order of values in actual array.
+tuple is like array but with different structure.
+
+let tuple :[string,number]=['hello',42]
