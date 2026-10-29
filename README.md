@@ -88,3 +88,44 @@ tuple is a type that represents an array with fixed number of elements where eac
 tuple is like array but with different structure.
 
 let tuple :[string,number]=['hello',42]
+
+# Enums
+
+Enum is a way to define a set of named constants. Enums allow you to define a collection of related values. can be used
+
+enum WeatherConditions {
+    Sunny,
+    Cloudy,
+    Rainy,
+    Snowy
+}
+Weather condition is the name of the enum, and each of the valyes is assignes an automatic numerical value starting from 0
+
+enum Weather{
+    Sunny='sunny',
+    Cloudy = 'cloudy',
+    Rainy = 'rainy'
+    Snowy = 'snowy'
+}
+
+> Usage :
+const current = Weather.Sunny
+console.log(`The current weather is ${current}`)
+
+# Class Properties Annotation
+
+you can annonate class properties with a type this allows you to define the data type of property and ensure it is always consistent
+
+>Access Modifiers
+you can use access modifiers to control visibilty of class members (props methods). access modifiers determine ways in which class members can be accessed 
+
+three types:
+<ul>
+
+<li>public:can be acces anywhere inside or outside class</li> 
+<li>private: within the class only</li>
+<li>protected: within the class and subclassess </li>
+</ul>
+
+>Getters and setters
+Getters and setters are used to access and modify class properties. Getters and setters allow you to define a property in a class that look like a simple variable from the outside but internally has additional logic for getting and setting the value
